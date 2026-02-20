@@ -596,7 +596,7 @@ kubectl get endpoints -n apps sample-app
 
 ---
 
-**Repository:** https://github.com/Bharathi-vbr/k8s-observability-minikube  
+**Repository:** https://github.com/Bharathi-vbr/k8s-observability-Stack
 **Author:** Bharathi Bhumireddy  
 **Last Updated:** 2026-02-20  
 **Status:** Production Ready ✅
