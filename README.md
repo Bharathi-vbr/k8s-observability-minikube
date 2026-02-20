@@ -317,6 +317,7 @@ for i in {1..50}; do
 done
 wait
 ```
+<img width="1408" height="649" alt="Screenshot 2026-02-17 at 7 00 01 PM" src="https://github.com/user-attachments/assets/57a842fd-2c62-47cd-b92d-825e8cd95ba1" />
 
 ### View Metrics in Prometheus
 
@@ -327,6 +328,7 @@ curl -s "http://localhost:9090/api/v1/query?query=http_requests_total" | jq .
 # Query request rate
 curl -s "http://localhost:9090/api/v1/query?query=rate(http_requests_total[1m])" | jq .
 ```
+<img width="1460" height="696" alt="Screenshot 2026-02-17 at 6 54 41 PM" src="https://github.com/user-attachments/assets/3c8d4830-3e62-401c-b8e3-425f7cf73565" />
 
 ---
 
