@@ -1,0 +1,13 @@
+# Node
+node_modules/
+npm-debug.log
+
+# Kubernetes/kind
+.kubeconfig
+*.pem
+
+# Logs
+*.log
+
+# OS
+.DS_Store
